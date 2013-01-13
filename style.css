@@ -1,0 +1,66 @@
+@CHARSET "UTF-8";
+
+#changeable{
+	//font-family:"calibri";
+}
+
+    label, input, select, textarea {
+        display: block;
+        width: 200px;
+        float: left;
+        margin-bottom: 1em;
+    }
+    
+    #wrapper {
+
+            width: 720px;
+
+            margin: 0 auto;
+
+            text-align: left;
+
+}
+    
+    .next{
+    width: 80px;
+    }
+
+    select {
+        width: 205px;
+    }
+
+    label {
+        text-align: right;
+        width: 300px;
+        padding-right: 2em;
+    }
+
+    .clear {
+      clear: both;
+    }
+    
+    #questions{
+     position: absolute;
+     width:700px;
+    top: 16%;
+    left: 20%;
+    right:20%
+    }
+
+	#load{
+	position:absolute;
+	z-index:1;
+	border:3px double #999;
+	background:#f7f7f7;
+	width:600px;
+	height:300px;
+	margin-top:-150px;
+	margin-left:-150px;
+	top:50%;
+	left:40%;
+	text-align:center;
+	line-height:300px;
+	font-family:calibri;
+	font-size:18pt;
+	}
+ 
